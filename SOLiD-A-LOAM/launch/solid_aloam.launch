@@ -1,0 +1,52 @@
+<launch>
+    
+    <!--- Sim Time -->
+    <!-- <param name="/use_sim_time" value="ture" /> -->
+
+    <param name="scan_line" type="int" value="32" />
+
+    <!-- if 1, do mapping 10 Hz, if 2, do mapping 5 Hz. Suggest to use 1, it will adjust frequence automaticlly -->
+    <param name="mapping_skip_frame" type="int" value="1" />
+    <param name="mapviz_filter_size" type="double" value="0.4" />
+    <param name="mapping_line_resolution" type="double" value="0.4"/> <!-- A-LOAM -->
+    <param name="mapping_plane_resolution" type="double" value="0.8"/> <!-- A-LOAM -->
+
+    <!-- SOLiD-A-LOAM key frame-->
+    <param name="keyframe_meter_gap" type="double" value="0.0"/> 
+    <param name="keyframe_deg_gap" type="double" value="0.0"/> 
+
+    <!-- SOLiD -->
+    <param name="r_solid_thres"             type="double"  value="0.99"/> <!-- SOLiD-A-LOAM, if want no outliers, use 0.1-0.15 -->
+    <param name="fov_u"                     type="double"  value="2"/>
+    <param name="fov_d"                     type="double"  value="-24.8"/>
+    <param name="num_angle"                 type="int"     value="60"/>
+    <param name="num_range"                 type="int"     value="40"/>
+    <param name="num_height"                type="int"     value="32"/>
+    <param name="min_distance"              type="int"     value="3"/>
+    <param name="max_distance"              type="int"     value="80"/>
+    <param name="voxel_size"                type="double"  value="0.4"/>   <!-- for Downsampling -->
+    <param name="num_exclude_recent"        type="int"     value="30"/>
+    <param name="num_candidates_from_tree"  type="int"     value="30"/>
+    <param name="is_withInitialICP"         type="bool"    value="false"/>
+    
+    <!-- ICP -->
+    <param name="icpScoreThreshold" type="double"  value="0.3"/>
+
+    <!-- utils -->
+    <param name="save_directory" type="string" value="/home/solid_aloam_ws/src/data/kitti/00/"/>  <!-- CHANGE THIS and end with / -->
+
+    <!--  -->
+    <param name="lidar_type" type="string" value="HDL32"/> 
+    <remap from="/velodyne_points" to="/velodyne_points"/>
+
+    <node pkg="solid_aloam" type="ascanRegistration" name="ascanRegistration" output="screen" />
+    <node pkg="solid_aloam" type="alaserOdometry" name="alaserOdometry" output="screen" />
+    <node pkg="solid_aloam" type="alaserMapping" name="alaserMapping" output="screen" />
+    <node pkg="solid_aloam" type="alaserPGO" name="alaserPGO" output="screen" /> <!-- SOLiD-A-LOAM -->
+
+    <arg name="rviz" default="true" />
+    <group if="$(arg rviz)">
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find solid_aloam)/rviz_cfg/solid_aloam.rviz" />
+    </group>
+
+</launch>

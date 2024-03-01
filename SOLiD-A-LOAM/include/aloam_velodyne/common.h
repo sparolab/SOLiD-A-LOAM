@@ -34,15 +34,37 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-#include <ros/ros.h>
+#pragma once
+
+#include <cmath>
+
+#include <pcl/point_types.h>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+typedef pcl::PointXYZI PointType;
 
 
-int main(int argc, char **argv)
+extern const string pointCloudTopic = "/points_raw";
+extern const string pointCloudFrame = "/velodyne";
+
+inline double rad2deg(double radians)
 {
-    ros::init(argc, argv, "laserOdometry");
-    ros::NodeHandle nh;
-
-    nh.param<int>("mapping_skip_frame", skipFrameNum, 2);
-
-    ros::Su
+  return radians * 180.0 / M_PI;
 }
+
+inline double deg2rad(double degrees)
+{
+  return degrees * M_PI / 180.0;
+}
+
+struct Pose6D {
+  double x;
+  double y;
+  double z;
+  double roll;
+  double pitch;
+  double yaw;
+};

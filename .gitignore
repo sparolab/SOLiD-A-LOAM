@@ -1,3 +1,7 @@
 build/
 devel/
+*.pcd
+*.g2o
+*.png
+*.gif
 .catkin_workspace
