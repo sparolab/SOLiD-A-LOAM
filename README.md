@@ -12,8 +12,10 @@
 **[IEEE RA-L]** This repository is the official code for Narrowing your FOV with **SOLiD**: Spatially Organized and Lightweight Global Descriptor for FOV-constrained LiDAR Place Recognition.
 
   <p align="center">
-    <img src="figure/map.gif" alt="animated" width="48%" />
-    <img src="figure/kitti05_solid.gif" alt="animated" width="48%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
   </p>
 
 </div>
