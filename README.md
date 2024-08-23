@@ -28,8 +28,12 @@
 </div>
 
 ## What is SOLiD-A-LOAM?
-* A real-time LiDAR SLAM package that integrates A-LOAM and SOLiD.
-  * A-LOAM for odometry (i.e., consecutive motion estimation)
+- A real-time LiDAR SLAM package that integrates A-LOAM and ScanContext. 
+    - **A-LOAM** for odometry (i.e., consecutive motion estimation)
+    - **ScanContext** for coarse global localization that can deal with big drifts (i.e., place recognition as kidnapped robot problem without initial pose)
+    - and iSAM2 of GTSAM is used for pose-graph optimization. 
+- This package aims to show ScanContext's handy applicability. 
+    - The only things a user should do is just to include `Scancontext.h`, call `makeAndSaveScancontextAndKeys` and `detectLoopClosureID`. 
 
 ## Main Contribution
 * Hogyun Kim (hg.kim@inha.edu)
