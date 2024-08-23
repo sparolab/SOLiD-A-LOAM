@@ -17,6 +17,13 @@
     <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
     <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
   </p>
+  
+  <p align="center">
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+  </p>
 
 </div>
 
