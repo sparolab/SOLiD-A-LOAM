@@ -35,7 +35,7 @@
 
 ## Prerequisites
 * ceres (version: 1.14)
-* gtsam (version: 4.0.2)
+* gtsam (version: 4.0.0-alpha2)
 
 ## How to use?
 
