@@ -13,7 +13,7 @@
 
   <p align="center"><img src="figure/map.gif") alt="animated" width="75%" /></p>
     <img src="figure/map.gif" alt="animated" width="50%" />
-    <img src="figure/kitti_05_solid.gif" alt="animated" width="50%" />
+    <img src="figure/kitti05_solid.gif" alt="animated" width="50%" />
 
 </div>
 
