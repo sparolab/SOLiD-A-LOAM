@@ -34,6 +34,8 @@
     * and iSAM2 of GTSAM is used for pose-graph optimization. 
 
 ## Prerequisites
+* ceres (version: 1.14)
+* gtsam (version: 4.2)
 
 ## How to use?
 
