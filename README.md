@@ -36,7 +36,7 @@
 ## Prerequisites
 * ceres (version: 1.14)
 * gtsam (version: 4.0.0-alpha2)
-
+  * export LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH
 ## How to use?
 
 ## Example Results
