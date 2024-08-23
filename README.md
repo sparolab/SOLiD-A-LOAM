@@ -10,6 +10,7 @@
   <br />
 
 **[IEEE RA-L]** This repository is the official code for Narrowing your FOV with **SOLiD**: Spatially Organized and Lightweight Global Descriptor for FOV-constrained LiDAR Place Recognition.
+SOLiD.
 
   <p align="center">
     <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
@@ -28,12 +29,14 @@
 </div>
 
 ## What is SOLiD-A-LOAM?
-- A real-time LiDAR SLAM package that integrates A-LOAM and ScanContext. 
-    - **A-LOAM** for odometry (i.e., consecutive motion estimation)
-    - **ScanContext** for coarse global localization that can deal with big drifts (i.e., place recognition as kidnapped robot problem without initial pose)
-    - and iSAM2 of GTSAM is used for pose-graph optimization. 
-- This package aims to show ScanContext's handy applicability. 
-    - The only things a user should do is just to include `Scancontext.h`, call `makeAndSaveScancontextAndKeys` and `detectLoopClosureID`. 
+* A real-time LiDAR SLAM package that integrates A-LOAM and ScanContext. 
+    * **A-LOAM** for odometry (i.e., consecutive motion estimation)
+    * **SOLiD** for coarse global localization that can deal with big drifts (i.e., place recognition as kidnapped robot problem without initial pose)
+    * and iSAM2 of GTSAM is used for pose-graph optimization. 
+
+## Prerequisites
+
+## How to use?
 
 ## Main Contribution
 * Hogyun Kim (hg.kim@inha.edu)
