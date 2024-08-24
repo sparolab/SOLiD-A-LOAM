@@ -34,6 +34,7 @@
     * and iSAM2 of GTSAM is used for pose-graph optimization. 
 
 ## Prerequisites
+* Ubuntu (version: 20.04)
 * ceres (version: 1.14)
 * gtsam (version: 4.0.0-alpha2)
   * export LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH
