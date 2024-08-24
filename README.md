@@ -65,7 +65,7 @@
 ## Example Results
 * KITTI Datasets
   
-* DiTer Datasets (Legged Robot)
+* [DiTer Datasets (Legged Robot)](https://sites.google.com/view/diter-dataset)
 
 ## Supplementary
 * [Arxiv](https://arxiv.org/abs/2408.07330#)
