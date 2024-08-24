@@ -28,8 +28,11 @@
 
 </div>
 
+## News
+* A real-time Livox LiDAR SLAM package that integrates LOAM-Livox and SOLiD will be released!! 
+
 ## What is SOLiD-A-LOAM?
-* A real-time LiDAR SLAM package that integrates A-LOAM and ScanContext. 
+* A real-time LiDAR SLAM package that integrates A-LOAM and SOLiD. 
     * **A-LOAM** for odometry (i.e., consecutive motion estimation)
     * **SOLiD** for coarse global localization that can deal with big drifts (i.e., place recognition as kidnapped robot problem without initial pose)
     * and iSAM2 of GTSAM is used for pose-graph optimization. 
