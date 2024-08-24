@@ -21,7 +21,7 @@
 **[Spatial AI and Robotics Lab (SPARO)](https://sites.google.com/view/sparo/%ED%99%88?authuser=0&pli=1)**
   
   <p align="center">
-    <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
+    <img src="figure/kitti_05_60.gif" alt="animated" width="32%" />
     <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
     <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
   </p>
