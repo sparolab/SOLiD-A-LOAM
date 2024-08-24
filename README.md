@@ -41,8 +41,30 @@
 * gtsam (version: 4.0.0-alpha2)
 
 ## How to use?
+* Linux
+  ```
+  mkdir -p ~/solid_aloam_ws/src
+  cd ~/solid_aloam_ws/src
+  git clone https://github.com/sparolab/SOLiD-A-LOAM.git
+  cd ../
+  catkin_make
+  source ~/solid_aloam_ws/devel/setup.bash
+  roslaunch solid_a_loam solid_a_loam.launch
+  ```
 
+* Docker
+  '''
+  nvidia-docker run --gpus all --privileged \
+  -it --name solid_aloam --ipc=host --shm-size=512M \
+  --device=/dev/video0:/dev/video0 -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
+  -e DISPLAY=unix$DISPLAY -v /root/.Xauthority:/root/.Xauthority --env="QT_X11_NO_MITSHM=1" \
+  -v (your SOLiD-A-LOAM path):/home/solid_aloam_ws/src \
+  -v (your Datasets path):/home/storage1 cokr6901/solid-a-loam:latest
+  '''
 ## Example Results
+* KITTI Datasets
+  
+* DiTer Datasets (Legged Robot)
 
 ## Supplementary
 * [Arxiv](https://arxiv.org/abs/2408.07330#)
