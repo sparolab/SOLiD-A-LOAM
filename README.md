@@ -24,7 +24,7 @@
   <p align="center">
     <img src="figure/kitti_05_60.gif" alt="animated" width="32%" />
     <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
-    <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
+    <img src="figure/kitti_05_180.gif" alt="animated" width="32%" />
   </p>
 
 </div>
