@@ -18,18 +18,11 @@
   <a href="https://scholar.google.com/citations?user=W5MOKWIAAAAJ&hl=ko" target="_blank">Younggun Cho</a><sup>†</sup>
 
 **[Spatial AI and Robotics Lab (SPARO)](https://sites.google.com/view/sparo/%ED%99%88?authuser=0&pli=1)**
-
-  <p align="center">
-    <img src="figure/kitti05_solid.gif" alt="animated" width="33%" />
-    <img src="figure/kitti05_solid.gif" alt="animated" width="33%" />
-    <img src="figure/kitti05_solid.gif" alt="animated" width="33%" />
-  </p>
   
   <p align="center">
-    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
-    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
-    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
-    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
+    <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
+    <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
+    <img src="figure/kitti_05_120.gif" alt="animated" width="32%" />
   </p>
 
 </div>
