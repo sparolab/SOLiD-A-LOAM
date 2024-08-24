@@ -27,10 +27,10 @@
   </p>
   
   <p align="center">
-    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
-    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
-    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
-    <img src="figure/kitti05_solid.gif" alt="animated" width="24%" />
+    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
+    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
+    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
+    <img src="figure/kitti_05_120.gif" alt="animated" width="48%" />
   </p>
 
 </div>
