@@ -30,7 +30,7 @@
 </div>
 
 ## News
-* A real-time Livox LiDAR SLAM package that integrates LOAM-Livox and SOLiD will be released!! 
+* [August, 2024] A real-time Livox LiDAR SLAM package that integrates LOAM-Livox and SOLiD will be released!! 
 
 ## What is SOLiD-A-LOAM?
 * A **FOV-agnostic** LiDAR SLAM package that integrates **A-LOAM** and **SOLiD**. 
