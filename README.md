@@ -53,14 +53,15 @@
   ```
 
 * Docker
-  '''
+  ```
   nvidia-docker run --gpus all --privileged \
   -it --name solid_aloam --ipc=host --shm-size=512M \
   --device=/dev/video0:/dev/video0 -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
   -e DISPLAY=unix$DISPLAY -v /root/.Xauthority:/root/.Xauthority --env="QT_X11_NO_MITSHM=1" \
   -v (your SOLiD-A-LOAM path):/home/solid_aloam_ws/src \
   -v (your Datasets path):/home/storage1 cokr6901/solid-a-loam:latest
-  '''
+  ```
+
 ## Example Results
 * KITTI Datasets
   
