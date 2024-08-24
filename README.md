@@ -33,16 +33,13 @@
 * A real-time Livox LiDAR SLAM package that integrates LOAM-Livox and SOLiD will be released!! 
 
 ## What is SOLiD-A-LOAM?
-* A real-time LiDAR SLAM package that integrates A-LOAM and SOLiD. 
-    * **A-LOAM** for odometry (i.e., consecutive motion estimation)
-    * **SOLiD** for coarse global localization that can deal with big drifts (i.e., place recognition as kidnapped robot problem without initial pose)
-    * and iSAM2 of GTSAM is used for pose-graph optimization. 
+* A FOV-agnostic LiDAR SLAM package that integrates A-LOAM and SOLiD. 
 
 ## Prerequisites
 * Ubuntu (version: 20.04)
 * ceres (version: 1.14)
 * gtsam (version: 4.0.0-alpha2)
-  * export LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH
+
 ## How to use?
 
 ## Example Results
