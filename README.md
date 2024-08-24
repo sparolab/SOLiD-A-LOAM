@@ -44,10 +44,6 @@
 
 ## Example Results
 
-## Main Contribution
-* Hogyun Kim (hg.kim@inha.edu)
-* Jiwon Choi (jiwon2@inha.edu)
-
 ## Supplementary
 * [Arxiv](https://arxiv.org/abs/2408.07330#)
 * [Paper](https://ieeexplore.ieee.org/abstract/document/10629042)
@@ -57,12 +53,7 @@
 ## Main Contribution
 * [Hogyun Kim](https://scholar.google.com/citations?user=t5UEbooAAAAJ&hl=ko)
 * [Jiwon Choi](https://scholar.google.com/citations?user=wL8VdUMAAAAJ&hl=ko)
-* [Taehu Sim](https://scholar.google.com/citations?user=UPg-JuQAAAAJ&hl=ko)
-* [Giseop Kim](https://scholar.google.com/citations?user=9mKOLX8AAAAJ&hl=ko)
-* [Younggun Cho](https://scholar.google.com/citations?user=W5MOKWIAAAAJ&hl=ko)
 
-## QnA
-* If you have a question, you utilize a [alphaXiv](https://www.alphaxiv.org/abs/2408.07330) and comment here.
 ## Citation
 <pre>
 <code>
@@ -77,6 +68,7 @@
 
 ## Contact
 * Hogyun Kim (hg.kim@inha.edu)
+* Jiwon Choi (jiwon2@inha.edu)
 
 ## Special Thanks
 Thank you [Giseop Kim](https://github.com/gisbi-kim/SC-A-LOAM) for providing the base code.
