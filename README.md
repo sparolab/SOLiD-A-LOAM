@@ -78,16 +78,15 @@
 * [Jiwon Choi](https://scholar.google.com/citations?user=wL8VdUMAAAAJ&hl=ko)
 
 ## Citation
-<pre>
-<code>
+```
 @article{kim2024narrowing,
   title={Narrowing your FOV with SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-constrained LiDAR Place Recognition},
   author={Kim, Hogyun and Choi, Jiwon and Sim, Taehu and Kim, Giseop and Cho, Younggun},
   journal={IEEE Robotics and Automation Letters},
   year={2024},
   publisher={IEEE}
-}</code>
-</pre>  
+}
+```
 
 ## Contact
 * Hogyun Kim (hg.kim@inha.edu)
