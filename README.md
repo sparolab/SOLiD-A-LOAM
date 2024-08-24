@@ -33,7 +33,7 @@
 * A real-time Livox LiDAR SLAM package that integrates LOAM-Livox and SOLiD will be released!! 
 
 ## What is SOLiD-A-LOAM?
-* A FOV-agnostic LiDAR SLAM package that integrates A-LOAM and SOLiD. 
+* A **FOV-agnostic** LiDAR SLAM package that integrates **A-LOAM** and **SOLiD**. 
 
 ## Prerequisites
 * Ubuntu (version: 20.04)
