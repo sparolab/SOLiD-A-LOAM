@@ -66,7 +66,9 @@
 * [DiTer Datasets (Legged Robot)](https://sites.google.com/view/diter-dataset)
 
 * KITTI Datasets (Narrow FOV)
-    <img src="figure/kitti_results.png" width="80%" />
+    <p align="center">
+    <img src="figure/kitti_results.png" width="90%" />
+    </p>
 
 ## Supplementary
 * [Arxiv](https://arxiv.org/abs/2408.07330#)
