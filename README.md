@@ -63,12 +63,12 @@
   ```
 
 ## Example Results  
-* [DiTer Datasets (Legged Robot)](https://sites.google.com/view/diter-dataset)
-
 * KITTI Datasets (Narrow FOV)
     <p align="center">
     <img src="figure/kitti_results.png" width="90%" />
     </p>
+
+* [DiTer Datasets (Legged Robot)](https://sites.google.com/view/diter-dataset)
 
 ## Supplementary
 * [Arxiv](https://arxiv.org/abs/2408.07330#)
