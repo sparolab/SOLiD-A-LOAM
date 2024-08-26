@@ -11,7 +11,7 @@
   <br />
   <br />
 
-**[IEEE RA-L]** This repository is the official code for Narrowing your FOV with **SOLiD**: Spatially Organized and Lightweight Global Descriptor for FOV-constrained LiDAR Place Recognition.
+**[IEEE RA-L]** This repository is the official code for Narrowing your FOV with **[SOLiD](https://github.com/sparolab/solid)**: Spatially Organized and Lightweight Global Descriptor for FOV-constrained LiDAR Place Recognition.
 
   <a href="https://scholar.google.com/citations?user=t5UEbooAAAAJ&hl=ko" target="_blank">Hogyun Kim</a><sup></sup>,
   <a href="https://scholar.google.com/citations?user=wL8VdUMAAAAJ&hl=ko" target="_blank">Jiwon Choi</a><sup></sup>,
