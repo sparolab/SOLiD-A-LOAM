@@ -69,6 +69,9 @@
     </p>
 
 * [DiTer Datasets (Legged Robot)](https://sites.google.com/view/diter-dataset)
+    <p align="center">
+    <img src="figure/diter_results.png" width="90%" />
+    </p>
 
 ## Supplementary
 * [Arxiv](https://arxiv.org/abs/2408.07330#)
